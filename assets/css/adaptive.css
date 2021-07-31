@@ -1,0 +1,743 @@
+@media only screen and (max-width: 480px) {
+    .banner-title h1{
+        font-size: 45px;
+        margin-top: 150px;
+    }
+
+    .banner-title p{
+        font-size: 30px;
+    }  
+
+    .main-form-wrapper {
+        width: auto;
+    }
+
+    .main-form-input input {
+        width: 200px;
+        font-size: 24px;
+    }
+
+    .main-form-select select{
+        width: 200px;
+        font-size: 24px;
+    }
+
+    .main-form-title h3 {
+        font-size: 45px;
+    }
+
+    .main-form-message fieldset textarea {
+        width: 200px;
+        font-size: 24px;
+    }
+
+    .hotel-items-wrapper {
+        display: block;
+    }
+
+    .hotel-item {
+        width: 200px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .hotel-img img {
+        width: 200px;
+    
+    }
+
+    .hotel-content h3{
+        font-size: 35px;
+    }
+
+    .transport-items-wrapper {
+        display: block;
+    }
+
+    .transport-item {
+        width: 280px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .transport-img img{
+        width: 280px;
+        height: 200px;
+    }
+
+    .gotopbtn {
+        visibility: hidden;
+    }
+
+    .footer-area {
+        height: 320px;
+    }
+    .places-wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .places-wrapper2 {
+        display: block;
+        text-align: center;
+    }
+
+    .places-col img {
+        width: 150px;
+    }
+
+    .main-places {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    
+   .toggle-button {
+       display: flex;
+       margin-top: 4px;
+       transition: all .1s linear;
+   }
+
+   .navbar-links {
+      display: none;
+      width: 80%;
+      background-color: #fff;
+      margin: 0 auto;
+      transition: all .1s linear;
+   }
+
+   .main-nav {
+       flex-direction: column;
+       align-items: flex-start;
+       transition: all .1s linear;
+   }
+
+   .navbar-links.active {
+       display: flex;
+       transition: all .1s linear;
+   }
+
+   .navbar-links ul {
+       width: 100%;
+       flex-direction: column;
+       transition: all .1s linear;
+   }
+
+   .navbar-links ul li{
+    text-align: center;
+    margin: 0;
+    border: 1px solid rgba(71,79,89,.1);
+    transition: all .1s linear;
+    
+}   
+
+
+.hotel-wrapper {
+    display: block;
+}
+    
+  }
+
+  @media only screen and (max-width: 525px) {
+    .banner-title h1{
+        font-size: 45px;
+        margin-top: 220px;
+    }
+
+    .banner-title p{
+        font-size: 30px;
+    }  
+
+    .main-form-wrapper {
+        width: auto;
+    }
+
+    .main-form-input input {
+        width: 200px;
+    }
+
+    .main-form-select select{
+        width: 200px;
+    }
+
+    .main-form-title h3 {
+        font-size: 45px;
+    }
+
+    .main-form-message fieldset textarea {
+        width: 200px;
+        font-size: 24px;
+    }
+
+    .hotel-items-wrapper {
+        display: block;
+    }
+
+    .hotel-item {
+        width: 280px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .hotel-img img {
+        width: 280px;
+    
+    }
+
+    .hotel-content h3{
+        font-size: 35px;
+    }
+
+    .transport-items-wrapper {
+        display: block;
+    }
+
+    .transport-item {
+        width: 280px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .transport-img img{
+        width: 280px;
+        height: 200px;
+    }
+
+    .gotopbtn {
+        visibility: hidden;
+    }
+
+    .footer-area {
+        height: 450px;
+    }
+    .places-wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .places-wrapper2 {
+        display: block;
+        text-align: center;
+    }
+
+    .places-col img {
+        width: 150px;
+    }
+
+    .main-places {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+    
+   .toggle-button {
+       display: flex;
+       margin-top: 4px;
+       transition: all .1s linear;
+   }
+
+   .navbar-links {
+      display: none;
+      width: 80%;
+      background-color: #fff;
+      margin: 0 auto;
+      transition: all .1s linear;
+   }
+
+   .main-nav {
+       flex-direction: column;
+       align-items: flex-start;
+       transition: all .1s linear;
+   }
+
+   .navbar-links.active {
+       display: flex;
+       transition: all .1s linear;
+   }
+
+   .navbar-links ul {
+       width: 100%;
+       flex-direction: column;
+       transition: all .1s linear;
+   }
+
+   .navbar-links ul li{
+    text-align: center;
+    margin: 0;
+    border: 1px solid rgba(71,79,89,.1);
+    transition: all .1s linear;
+    
+   }
+
+   .hotel-wrapper {
+    display: block;
+}
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 480px) {
+    .banner-title h1{
+        font-size: 45px;
+        margin-top: 300px;
+    }
+
+    .banner-title p{
+        font-size: 30px;
+    }  
+
+    .main-form-wrapper {
+        width: auto;
+    }
+
+    .main-form-input input {
+        width: auto;
+    }
+    
+    .main-form-select select{
+        width: 245px;
+    }
+
+    .hotel-item {
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .hotel-items-wrapper {
+        display: block;
+    }
+
+    .hotel-img img {
+        width: 400px;
+        
+    }
+
+    .transport-items-wrapper {
+        display: block;
+    }
+
+    .transport-item {
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .gotopbtn {
+        visibility: hidden;
+    }
+
+    .footer-area {
+        height: 320px;
+    }
+    .places-wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .places-wrapper2 {
+        display: block;
+        text-align: center;
+    }
+    .places-col img {
+        width: 200px;
+    }
+    .main-places {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    .hotel-wrapper {
+        display: block;
+    }
+    
+    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .banner-title h1{
+        font-size: 65px;
+        margin-top: 140px;
+    }
+
+    .banner-title p{
+        font-size: 44px;
+    }
+
+    .main-form-wrapper {
+        width: auto;
+    }
+    
+    .hotel-items-wrapper {
+        display: block;
+    }
+
+    .hotel-item {
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .hotel-img img {
+        width: 400px;
+       
+    }
+
+    .transport-items-wrapper {
+        display: block;
+    }
+
+    .transport-item {
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .gotopbtn {
+        visibility: hidden;
+    }
+
+    .footer-area {
+        height: 320px;
+    }
+
+    .places-wrapper {
+        display: block;
+        text-align: center;
+    }
+
+    .places-wrapper2 {
+        display: block;
+        text-align: center;
+    }
+    .places-col img {
+        width: 300px;
+    }
+    .main-places {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    .hotel-wrapper {
+        display: block;
+    }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .banner-title h1{
+        font-size: 80px;
+        margin-top: 100px;
+    }
+
+    .banner-title p{
+        font-size: 45px;
+    }
+
+    .main-form-wrapper {
+        width: auto;
+    }
+
+    .hotel-items-wrapper {
+        display: block;
+    }
+
+    .hotel-item {
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .hotel-img img {
+        width: 400px;
+        height: 225px;
+    }
+
+
+    .transport-items-wrapper {
+        display: block;
+    }
+
+    .transport-item {
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .gotopbtn {
+        visibility: hidden;
+    }
+
+    .footer-area {
+        height: 320px;
+    }
+
+    .places-wrapper {
+        display: block;
+        
+    }
+
+    .places-wrapper2 {
+        display: block;
+        
+    }
+
+    .places-col img {
+        width: 480px;
+    }
+
+    .main-places {
+        display: flex;
+        text-align: center;
+        padding: 0;
+    }
+
+    .contact-methods {
+        display: block;
+    }
+
+    .hotel-wrapper {
+        display: block;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .banner-title h1{
+        font-size: 95px;
+        margin-top: 100px;
+    }
+
+    .banner-title p{
+        font-size: 64px;
+    }
+
+    .main-form-wrapper {
+        width: auto;
+    }
+
+    .main-form-input input {
+        width: 400px;
+    }
+
+    .main-form-select select{
+        width: 400px;
+    }
+
+    .main-form-title h3 {
+        font-size: 45px;
+    }
+
+    .main-form-message fieldset textarea {
+        width: 400px;
+    }
+
+    .hotel-items-wrapper {
+        display: block;
+    }
+
+    .hotel-item {
+        width: 400px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .hotel-img img {
+        width: 400px;
+        
+    }
+
+    .transport-items-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .transport-item {
+        width: 400px;
+        margin: 0 25px 0;
+    }
+
+    .gotopbtn {
+        visibility: hidden;
+    }
+
+    .footer-area {
+        height: 320px;
+    }
+
+    .places-col {
+        
+        width: 50%;
+    }
+    .places-wrapper {
+        display: block;
+        
+    }
+
+    .places-wrapper2 {
+        display: block;
+        
+
+    }
+    .places-col img {
+        width: 480px;
+    }
+
+    .main-places {
+        display: flex;
+        text-align: center;
+        padding: 0;
+    }
+
+    .contact-methods {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hotel-wrapper {
+        display: block;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1200px) {
+    .banner-title h1{
+        font-size: 110px;
+        margin-top: 100px;
+    }
+
+    .banner-title p{
+        font-size: 70px;
+    }
+    
+    .hotel-items-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .hotel-item {
+        width: 400px;
+        margin-right: 25px;
+        margin-bottom: 30px;
+    }
+    .hotel-img img {
+        width: 400px;
+        
+    }
+
+    .transport-items-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .transport-item {
+        width: 400px;
+        margin: 0 25px 0;
+    }
+
+    .gotopbtn {
+        visibility: visible;
+    }
+
+    .footer-area {
+        height: 320px;
+    }
+
+    .places-wrapper {
+        display: block;
+        
+    }
+
+    .places-wrapper2 {
+        display: block;
+        
+    }
+    .places-col img {
+        width: 480px;
+    }
+    .main-places {
+        display: flex;
+        text-align: center;
+        padding: 0;
+    }
+
+    .contact-methods {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hotel-wrapper {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 1680px) {
+    .banner-title h1{
+        font-size: 120px;
+        margin-top: 100px;
+    }
+
+    .banner-title p{
+        font-size: 70px;
+    }
+    
+    .hotel-items-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+    .hotel-item {
+        width: 400px;
+        margin-right: 25px;
+        margin-bottom: 30px;
+    }
+    .hotel-img img {
+        width: 400px;
+        
+    }
+
+    .transport-items-wrapper {
+        display: flex;
+        justify-content: center;
+    }
+
+    .transport-item {
+        width: 400px;
+        margin: 0 25px 0;
+    }
+
+    .gotopbtn {
+        display: none;
+    }
+
+    .footer-area {
+        height: 320px;
+    }
+
+    .places-wrapper {
+        display:flex;
+        
+    }
+
+    .places-wrapper2 {
+        display: flex;
+        
+    }
+    .places-col img {
+        width: 480px;
+    }
+    .main-places {
+        display: flex;
+        text-align: center;
+        padding: 0;
+    }
+
+    .contact-methods {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hotel-wrapper {
+        display: flex;
+    }
+}
